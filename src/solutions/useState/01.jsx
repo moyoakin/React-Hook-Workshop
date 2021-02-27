@@ -1,6 +1,6 @@
 //useState: greeting
 
-import * as React from 'react'
+import React from 'react'
 
 function Greeting() {
   const [name, setName] = React.useState('')

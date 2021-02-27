@@ -1,6 +1,6 @@
 // useEffect: persistent state
 
-import * as React from 'react'
+import React from 'react'
 
 import { WorkShopNote } from '../../reusables/workshop-note'
 import file from './01.md'

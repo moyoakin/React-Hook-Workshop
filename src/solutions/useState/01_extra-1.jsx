@@ -1,7 +1,7 @@
 // useState: greeting
 // 💯 accept an initialName
 
-import * as React from 'react'
+import React from 'react'
 
 function Greeting({initialName = ''}) {
   const [name, setName] = React.useState(initialName)

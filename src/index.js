@@ -8,8 +8,6 @@ import 'prismjs/themes/prism.css'; /* or your own custom theme */
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css' /* add plugin css */
 // Require all needed languages
 import 'prismjs/components/prism-jsx';
-
-
 // Require all needed plugins
 import 'prismjs/plugins/line-numbers/prism-line-numbers';
 
