@@ -5,7 +5,7 @@ import React from 'react'
 import { WorkShopNote } from '../../reusables/workshop-note'
 import file from './01.md'
 
-const useLocalStorageState = (key,defaultValue = "", {serialize = JSON.stringify, deSerialize = JSON.perse} = {} ) => {
+const useLocalStorageState = (key,defaultValue = "", {serialize = JSON.stringify, deSerialize = JSON.parse} = {} ) => {
   
   const [state, setState] = React.useState(
     () => window.localStorage.getItem(key) || defaultValue 
