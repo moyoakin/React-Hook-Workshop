@@ -24,24 +24,67 @@ code {
   overflow-y: scroll;
   padding: 1rem 2rem 3rem 2rem;
 }
+<<<<<<< HEAD
+body {
+  margin: 0;
+  font-family: Century Gothic,Futura,sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F4F6F8;
+  color: #212b36;
+}
+​
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+​
+​
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+​
+.workShopNote {
+  height: calc(100vh - 4rem);
+  overflow-y: scroll;
+  padding: 1rem 2rem 3rem 2rem;
+}
+=======
 
 
+>>>>>>> origin/master
 .game {
   font: 14px 'Century Gothic', Futura, sans-serif;
   margin: 20px;
   min-height: 260px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 .game ol,
 .game ul {
   padding-left: 30px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 .board-row:after {
   clear: both;
   content: '';
   display: table;
 }
+<<<<<<< HEAD
+.status {
+  margin-bottom: 10px;
+}
+.restart {
+  margin-top: 10px;
+}
+=======
 
 .status {
   margin-bottom: 10px;
@@ -51,6 +94,7 @@ code {
   margin-top: 10px;
 }
 
+>>>>>>> origin/master
 .square {
   background: #fff;
   border: 1px solid #999;
@@ -65,16 +109,28 @@ code {
   text-align: center;
   width: 34px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 .square:focus {
   outline: none;
   background: #ddd;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/master
 .game {
   display: flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
+.game-info {
+  margin-left: 20px;
+  min-width: 190px;
+}
+=======
 
 .game-info {
   margin-left: 20px;
@@ -249,3 +305,4 @@ body[class*='6'] > iframe {
   background-color: transparent;
 }
 
+>>>>>>> origin/master
