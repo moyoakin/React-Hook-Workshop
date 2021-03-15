@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './solutions/useEffectHTTPrequests/01_extra-3'
+import App from './solutions/useEffectHTTPrequests/01_extra-2'
 import reportWebVitals from './reportWebVitals';
 
 import 'prismjs/themes/prism.css'; /* or your own custom theme */

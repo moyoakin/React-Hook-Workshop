@@ -1,4 +1,6 @@
 // useEffect: HTTP requests
+// 💯 use a status
+
 import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
