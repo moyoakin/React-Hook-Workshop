@@ -10,7 +10,7 @@ import {PokemonForm} from '../../utils/pokemon'
 import { WorkShopNote } from '../../reusables/workshop-note'
 import file from './01.md'
 
-functiaton PokemonInfo({pokemonName}) {
+function PokemonInfo({pokemonName}) {
     // 🐨 Have state for the pokemon (null)
     // 🐨 use React.useEffect where the callback should be called whenever the
     // pokemon name changes.

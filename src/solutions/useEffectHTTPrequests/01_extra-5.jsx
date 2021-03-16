@@ -1,9 +1,4 @@
 // useEffect: HTTP requests
-<<<<<<< HEAD
-=======
-// 💯 re-mount the error boundary
-
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
@@ -26,17 +21,11 @@ class ErrorBoundary extends React.Component {
   }
   render() {
     const { error } = this.state;
-<<<<<<< HEAD
 
     if (error) {
       return <this.props.FallBackComponent error={error} />;
     }
 
-=======
-    if (error) {
-      return <this.props.FallBackComponent error={error} />;
-    }
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
     return this.props.children;
   }
 }
@@ -71,10 +60,7 @@ function PokemonInfo({ pokemonName }) {
   } else if (status === "pending") {
     return <PokemonInfoFallback name={pokemonName} />;
   } else if (status === "rejected") {
-<<<<<<< HEAD
     // this will be handled by the error boundary
-=======
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
     throw error;
   } else if (status === "resolved") {
     return <PokemonDataView pokemon={pokemon} />;
@@ -83,7 +69,6 @@ function PokemonInfo({ pokemonName }) {
   throw new Error("It is impossilbe to get here!");
 }
 
-<<<<<<< HEAD
 function ErrorFallBack({ error }) {
   return (
     <div role="alert">
@@ -93,8 +78,6 @@ function ErrorFallBack({ error }) {
   );
 }
 
-=======
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 function PokemonApp() {
   const [pokemonName, setPokemonName] = React.useState("");
 
@@ -115,18 +98,6 @@ function PokemonApp() {
   );
 }
 
-<<<<<<< HEAD
-=======
-function ErrorFallBack({ error }) {
-  return (
-    <div role="alert">
-      There was an error:{" "}
-      <pre style={{ whiteSpace: "normal" }}>{error.message}</pre>
-    </div>
-  );
-}
-
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 function App() {
   return (
     <div className="grid-container">
