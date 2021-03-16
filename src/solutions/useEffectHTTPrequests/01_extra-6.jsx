@@ -1,4 +1,9 @@
 // useEffect: HTTP requests
+<<<<<<< HEAD
+=======
+// 💯 use react-error-boundary
+
+>>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 import * as React from "react";
 import { ErrorBoundary } from "react-error-boundary";
 // 🐨 you'll want the following additional things from '../pokemon':
@@ -45,7 +50,10 @@ function PokemonInfo({ pokemonName }) {
   } else if (status === "pending") {
     return <PokemonInfoFallback name={pokemonName} />;
   } else if (status === "rejected") {
+<<<<<<< HEAD
     // this will be handled by the error boundary
+=======
+>>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
     throw error;
   } else if (status === "resolved") {
     return <PokemonDataView pokemon={pokemon} />;
@@ -54,6 +62,7 @@ function PokemonInfo({ pokemonName }) {
   throw new Error("It is impossilbe to get here!");
 }
 
+<<<<<<< HEAD
 function ErrorFallBack({ error }) {
   return (
     <div role="alert">
@@ -63,6 +72,8 @@ function ErrorFallBack({ error }) {
   );
 }
 
+=======
+>>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 function PokemonApp() {
   const [pokemonName, setPokemonName] = React.useState("");
 
@@ -83,6 +94,18 @@ function PokemonApp() {
   );
 }
 
+<<<<<<< HEAD
+=======
+function ErrorFallBack({ error }) {
+  return (
+    <div role="alert">
+      There was an error:{" "}
+      <pre style={{ whiteSpace: "normal" }}>{error.message}</pre>
+    </div>
+  );
+}
+
+>>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 function App() {
   return (
     <div className="grid-container">
