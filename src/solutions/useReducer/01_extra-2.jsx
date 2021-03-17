@@ -1,19 +1,20 @@
 // useReducer: simple Counter
-// 💯 simulate setState with an object
 
 import * as React from "react";
 
 import { WorkShopNote } from "../../reusables/workshop-note";
 import file from "../../exercise/useReducer/01.md";
 
-const countReducer = (state, action) => ({ ...state, ...action });
+const countReducer = (count, change) => count + change;
 
 function Counter({ initialCount = 0, step = 1 }) {
   const [state, setState] = React.useReducer(countReducer, {
-    count: initialCount,
+    count:initialCount
   });
-  const { count } = state;
-  const increment = () => setState({ count: count + step });
+
+  const {count} = state
+
+  const increment = () => setState({count: count + step});
   return <button onClick={increment}>{count}</button>;
 }
 
