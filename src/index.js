@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./solutions/useReducer/01";
 import reportWebVitals from "./reportWebVitals";
-=======
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './solutions/useReducer/01_extra-2'
-import reportWebVitals from './reportWebVitals';
->>>>>>> 3f36361ab655da44b59a486937e4e57d4d8c72c3
 
 import "prismjs/themes/prism.css"; /* or your own custom theme */
 import "prismjs/plugins/line-numbers/prism-line-numbers.css"; /* add plugin css */

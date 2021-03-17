@@ -1,9 +1,6 @@
 // useEffect: HTTP requests
-<<<<<<< HEAD
-=======
 // 💯 create an ErrorBoundary component
 
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
 import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
@@ -26,17 +23,9 @@ class ErrorBoundary extends React.Component {
   }
   render() {
     const { error } = this.state;
-<<<<<<< HEAD
-
     if (error) {
       return <this.props.FallBackComponent error={error} />;
     }
-
-=======
-    if (error) {
-      return <this.props.FallBackComponent error={error} />;
-    }
->>>>>>> 89a61f70f0e7ea697395fac5b3675148ef4d31e7
     return this.props.children;
   }
 }

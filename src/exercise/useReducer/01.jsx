@@ -5,6 +5,10 @@ import * as React from "react";
 import { WorkShopNote } from "../../reusables/workshop-note";
 import file from "../../exercise/useReducer/01.md";
 
+function reducer(state, newState){
+  return newState;
+}
+
 function Counter({ initialCount = 0, step = 1 }) {
   // 🐨 replace React.useState with React.useReducer.
   // 💰 React.useReducer(countReducer, initialCount)
