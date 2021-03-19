@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./solutions/useReducer/01";
-import reportWebVitals from "./reportWebVitals";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './exercise/useContext/01'
+import reportWebVitals from './reportWebVitals';
 
 import "prismjs/themes/prism.css"; /* or your own custom theme */
 import "prismjs/plugins/line-numbers/prism-line-numbers.css"; /* add plugin css */
